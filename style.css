@@ -1,0 +1,118 @@
+/* Colors and fonts */
+
+
+body {
+	background-color: #f4eeff;
+	color: #222831;
+	font-family: 'Nunito', sans-serif;
+	font-weight: lighter;
+	font-size: 17px;
+}
+h1, h2{
+	font-weight: 300;
+    letter-spacing: 2px;
+    font-family: 'Comfortaa', cursive;
+}
+h1{
+	font-size: 35px;
+}
+h2{
+	font-size: 25px;
+	color: #222831;
+}
+a{
+	text-decoration: none;
+	color: #dae1e7;
+	font-weight: 400;
+	font-style: italic;
+}
+a:hover{
+	color: #142850;
+}
+
+/* Custom design with class */
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white{
+	background-color: white;
+	padding: 30px 20px;
+	margin: 30px 0px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, .1);
+	border-radius: 4px;
+	text-align: center;
+}
+
+.card-picturentext{
+	border-radius: 4px;
+}
+.picture-left img {
+	width: 300px;
+    float: left;
+}
+.text-right{
+	color: white;
+	height: 300px;
+	background-color: #142850;
+	text-align: center;
+	padding-top: 100px;
+}
+.btn-green{
+	background-color: #142850;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+}
+.btn-green:hover{
+	background-color: white;
+	color: #142850;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	font-size: 50px;
+	display: inline;
+	padding: 10px;
+}
+
+#introduction p{
+	margin-bottom: 60px;
+}
+@media (max-width: 960px) {
+	.container{
+		width: 700px;
+	}
+}
+@media (max-width: 720px){
+	.container{
+		width: 500px;
+	}
+	.picture-left img{
+		width: 500px;
+		float: none;
+	}
+	.text-right{
+		width: 500px;
+		height: 300px;
+	}
+}
+@media (max-width: 540px){
+	.container{
+		width: 300px;
+	}
+	.picture-left img{
+		width: 300px;
+		float: none;
+	}
+	.text-right{
+		width: 300px;
+		height: 300px;
+		padding-top: 10px;
+	}
+}
